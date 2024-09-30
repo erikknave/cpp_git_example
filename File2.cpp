@@ -5,7 +5,7 @@
 
 namespace OuterNamespace {
     namespace InnerNamespace {
-
+        // This is class B implementation!
         ClassB::ClassB(const std::string& name)
             : name(name), message("Hello from ClassB"), flag(false) {}
 
